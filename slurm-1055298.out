@@ -1,0 +1,104 @@
+no change     /home/s478603/miniconda3/condabin/conda
+no change     /home/s478603/miniconda3/bin/conda
+no change     /home/s478603/miniconda3/bin/conda-env
+no change     /home/s478603/miniconda3/bin/activate
+no change     /home/s478603/miniconda3/bin/deactivate
+no change     /home/s478603/miniconda3/etc/profile.d/conda.sh
+no change     /home/s478603/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/s478603/miniconda3/shell/condabin/Conda.psm1
+no change     /home/s478603/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/s478603/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/s478603/miniconda3/etc/profile.d/conda.csh
+no change     /home/s478603/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+tensor([[0.1702, 0.6405, 0.1896, 0.0274]], grad_fn=<AddmmBackward0>)
+2592
+2592
+Epoch [1/80], Loss: 0.6059
+Epoch [2/80], Loss: 0.5210
+Epoch [3/80], Loss: 0.4307
+Epoch [4/80], Loss: 0.4173
+Epoch [5/80], Loss: 0.4101
+Epoch [6/80], Loss: 0.4071
+Epoch [7/80], Loss: 0.4044
+Epoch [8/80], Loss: 0.4027
+Epoch [9/80], Loss: 0.3995
+Epoch [10/80], Loss: 0.3954
+Epoch [11/80], Loss: 0.3947
+Epoch [12/80], Loss: 0.3926
+Epoch [13/80], Loss: 0.3872
+Epoch [14/80], Loss: 0.3845
+Epoch [15/80], Loss: 0.3815
+Epoch [16/80], Loss: 0.3768
+Epoch [17/80], Loss: 0.3718
+Epoch [18/80], Loss: 0.3638
+Epoch [19/80], Loss: 0.3556
+Epoch [20/80], Loss: 0.3421
+Epoch [21/80], Loss: 0.3332
+Epoch [22/80], Loss: 0.3233
+Epoch [23/80], Loss: 0.3037
+Epoch [24/80], Loss: 0.2886
+Epoch [25/80], Loss: 0.2715
+Epoch [26/80], Loss: 0.2546
+Epoch [27/80], Loss: 0.2346
+Epoch [28/80], Loss: 0.2145
+Epoch [29/80], Loss: 0.1988
+Epoch [30/80], Loss: 0.1841
+Epoch [31/80], Loss: 0.1685
+Epoch [32/80], Loss: 0.1547
+Epoch [33/80], Loss: 0.1434
+Epoch [34/80], Loss: 0.1304
+Epoch [35/80], Loss: 0.1233
+Epoch [36/80], Loss: 0.1138
+Epoch [37/80], Loss: 0.1091
+Epoch [38/80], Loss: 0.1013
+Epoch [39/80], Loss: 0.0966
+Epoch [40/80], Loss: 0.0916
+Epoch [41/80], Loss: 0.0879
+Epoch [42/80], Loss: 0.0844
+Epoch [43/80], Loss: 0.0792
+Epoch [44/80], Loss: 0.0767
+Epoch [45/80], Loss: 0.0753
+Epoch [46/80], Loss: 0.0704
+Epoch [47/80], Loss: 0.0695
+Epoch [48/80], Loss: 0.0655
+Epoch [49/80], Loss: 0.0645
+Epoch [50/80], Loss: 0.0625
+Epoch [51/80], Loss: 0.0612
+Epoch [52/80], Loss: 0.0599
+Epoch [53/80], Loss: 0.0576
+Epoch [54/80], Loss: 0.0572
+Epoch [55/80], Loss: 0.0581
+Epoch [56/80], Loss: 0.0553
+Epoch [57/80], Loss: 0.0530
+Epoch [58/80], Loss: 0.0522
+Epoch [59/80], Loss: 0.0523
+Epoch [60/80], Loss: 0.0512
+Epoch [61/80], Loss: 0.0519
+Epoch [62/80], Loss: 0.0497
+Epoch [63/80], Loss: 0.0531
+Epoch [64/80], Loss: 0.0506
+Epoch [65/80], Loss: 0.0510
+Epoch [66/80], Loss: 0.0504
+Epoch [67/80], Loss: 0.0485
+Epoch [68/80], Loss: 0.0490
+Epoch [69/80], Loss: 0.0482
+Epoch [70/80], Loss: 0.0504
+Epoch [71/80], Loss: 0.0490
+Epoch [72/80], Loss: 0.0488
+Epoch [73/80], Loss: 0.0479
+Epoch [74/80], Loss: 0.0477
+Epoch [75/80], Loss: 0.0480
+Epoch [76/80], Loss: 0.0493
+Epoch [77/80], Loss: 0.0499
+Epoch [78/80], Loss: 0.0498
+Epoch [79/80], Loss: 0.0504
+Epoch [80/80], Loss: 0.0495
+Training completed!

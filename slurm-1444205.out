@@ -1,0 +1,165 @@
+no change     /home/s478603/miniconda3/condabin/conda
+no change     /home/s478603/miniconda3/bin/conda
+no change     /home/s478603/miniconda3/bin/conda-env
+no change     /home/s478603/miniconda3/bin/activate
+no change     /home/s478603/miniconda3/bin/deactivate
+no change     /home/s478603/miniconda3/etc/profile.d/conda.sh
+no change     /home/s478603/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/s478603/miniconda3/shell/condabin/Conda.psm1
+no change     /home/s478603/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/s478603/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/s478603/miniconda3/etc/profile.d/conda.csh
+no change     /home/s478603/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of ViTModel were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/s478603/star_tracker/dataset.py:30: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ra_rad  = torch.deg2rad(torch.tensor(ra_deg,  dtype=torch.float32))
+/home/s478603/star_tracker/dataset.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  dec_rad = torch.deg2rad(torch.tensor(dec_deg, dtype=torch.float32))
+Epoch 1/140 — Train Loss: 0.7433 | Val Loss: 0.6896
+Epoch 2/140 — Train Loss: 0.6683 | Val Loss: 0.6743
+Epoch 3/140 — Train Loss: 0.6427 | Val Loss: 0.6515
+Epoch 4/140 — Train Loss: 0.6204 | Val Loss: 0.6517
+Epoch 5/140 — Train Loss: 0.6008 | Val Loss: 0.6388
+Epoch 6/140 — Train Loss: 0.5743 | Val Loss: 0.6393
+Epoch 7/140 — Train Loss: 0.5419 | Val Loss: 0.6162
+Epoch 8/140 — Train Loss: 0.5085 | Val Loss: 0.6080
+Epoch 9/140 — Train Loss: 0.4898 | Val Loss: 0.5666
+Epoch 10/140 — Train Loss: 0.4530 | Val Loss: 0.5846
+Epoch 11/140 — Train Loss: 0.4296 | Val Loss: 0.5150
+Epoch 12/140 — Train Loss: 0.3759 | Val Loss: 0.5098
+Epoch 13/140 — Train Loss: 0.3321 | Val Loss: 0.4683
+Epoch 14/140 — Train Loss: 0.2959 | Val Loss: 0.4372
+Epoch 15/140 — Train Loss: 0.2509 | Val Loss: 0.3928
+Epoch 16/140 — Train Loss: 0.2148 | Val Loss: 0.3664
+Epoch 17/140 — Train Loss: 0.1673 | Val Loss: 0.3160
+Epoch 18/140 — Train Loss: 0.1405 | Val Loss: 0.3312
+Epoch 19/140 — Train Loss: 0.1087 | Val Loss: 0.2504
+Epoch 20/140 — Train Loss: 0.0842 | Val Loss: 0.2270
+Epoch 21/140 — Train Loss: 0.0653 | Val Loss: 0.2166
+Epoch 22/140 — Train Loss: 0.0566 | Val Loss: 0.2037
+Epoch 23/140 — Train Loss: 0.0455 | Val Loss: 0.1939
+Epoch 24/140 — Train Loss: 0.0447 | Val Loss: 0.1848
+Epoch 25/140 — Train Loss: 0.0405 | Val Loss: 0.1882
+Epoch 26/140 — Train Loss: 0.0400 | Val Loss: 0.1773
+Epoch 27/140 — Train Loss: 0.0363 | Val Loss: 0.1741
+Epoch 28/140 — Train Loss: 0.0308 | Val Loss: 0.1760
+Epoch 29/140 — Train Loss: 0.0301 | Val Loss: 0.1668
+Epoch 30/140 — Train Loss: 0.0320 | Val Loss: 0.1721
+Epoch 31/140 — Train Loss: 0.0324 | Val Loss: 0.1777
+Epoch 32/140 — Train Loss: 0.0279 | Val Loss: 0.1745
+Epoch 33/140 — Train Loss: 0.0278 | Val Loss: 0.1625
+Epoch 34/140 — Train Loss: 0.0254 | Val Loss: 0.1564
+Epoch 35/140 — Train Loss: 0.0231 | Val Loss: 0.1594
+Epoch 36/140 — Train Loss: 0.0202 | Val Loss: 0.1586
+Epoch 37/140 — Train Loss: 0.0160 | Val Loss: 0.1519
+Epoch 38/140 — Train Loss: 0.0133 | Val Loss: 0.1483
+Epoch 39/140 — Train Loss: 0.0105 | Val Loss: 0.1451
+Epoch 40/140 — Train Loss: 0.0089 | Val Loss: 0.1510
+Epoch 41/140 — Train Loss: 0.0093 | Val Loss: 0.1505
+Epoch 42/140 — Train Loss: 0.0150 | Val Loss: 0.1551
+Epoch 43/140 — Train Loss: 0.0265 | Val Loss: 0.1623
+Epoch 44/140 — Train Loss: 0.0333 | Val Loss: 0.1652
+Epoch 45/140 — Train Loss: 0.0302 | Val Loss: 0.1811
+Epoch 46/140 — Train Loss: 0.0280 | Val Loss: 0.1607
+Epoch 47/140 — Train Loss: 0.0221 | Val Loss: 0.1451
+Epoch 48/140 — Train Loss: 0.0135 | Val Loss: 0.1538
+Epoch 49/140 — Train Loss: 0.0116 | Val Loss: 0.1413
+Epoch 50/140 — Train Loss: 0.0104 | Val Loss: 0.1451
+Epoch 51/140 — Train Loss: 0.0092 | Val Loss: 0.1459
+Epoch 52/140 — Train Loss: 0.0079 | Val Loss: 0.1369
+Epoch 53/140 — Train Loss: 0.0229 | Val Loss: 0.1676
+Epoch 54/140 — Train Loss: 0.0487 | Val Loss: 0.1794
+Epoch 55/140 — Train Loss: 0.0485 | Val Loss: 0.1921
+Epoch 56/140 — Train Loss: 0.0395 | Val Loss: 0.1795
+Epoch 57/140 — Train Loss: 0.0345 | Val Loss: 0.1630
+Epoch 58/140 — Train Loss: 0.0179 | Val Loss: 0.1522
+Epoch 59/140 — Train Loss: 0.0095 | Val Loss: 0.1469
+Epoch 60/140 — Train Loss: 0.0051 | Val Loss: 0.1431
+Epoch 61/140 — Train Loss: 0.0040 | Val Loss: 0.1282
+Epoch 62/140 — Train Loss: 0.0040 | Val Loss: 0.1351
+Epoch 63/140 — Train Loss: 0.0055 | Val Loss: 0.1571
+Epoch 64/140 — Train Loss: 0.0131 | Val Loss: 0.1717
+Epoch 65/140 — Train Loss: 0.0454 | Val Loss: 0.2000
+Epoch 66/140 — Train Loss: 0.0551 | Val Loss: 0.1853
+Epoch 67/140 — Train Loss: 0.0537 | Val Loss: 0.1810
+Epoch 68/140 — Train Loss: 0.0352 | Val Loss: 0.1530
+Epoch 69/140 — Train Loss: 0.0179 | Val Loss: 0.1495
+Epoch 70/140 — Train Loss: 0.0084 | Val Loss: 0.1389
+Epoch 71/140 — Train Loss: 0.0039 | Val Loss: 0.1446
+Epoch 72/140 — Train Loss: 0.0028 | Val Loss: 0.1336
+Epoch 73/140 — Train Loss: 0.0028 | Val Loss: 0.1307
+Epoch 74/140 — Train Loss: 0.0042 | Val Loss: 0.1360
+Epoch 75/140 — Train Loss: 0.0081 | Val Loss: 0.1365
+Epoch 76/140 — Train Loss: 0.0133 | Val Loss: 0.1550
+Epoch 77/140 — Train Loss: 0.0247 | Val Loss: 0.1640
+Epoch 78/140 — Train Loss: 0.0294 | Val Loss: 0.1612
+Epoch 79/140 — Train Loss: 0.0157 | Val Loss: 0.1397
+Epoch 80/140 — Train Loss: 0.0079 | Val Loss: 0.1439
+Epoch 81/140 — Train Loss: 0.0059 | Val Loss: 0.1447
+Epoch 82/140 — Train Loss: 0.0044 | Val Loss: 0.1390
+Epoch 83/140 — Train Loss: 0.0034 | Val Loss: 0.1398
+Epoch 84/140 — Train Loss: 0.0033 | Val Loss: 0.1443
+Epoch 85/140 — Train Loss: 0.0053 | Val Loss: 0.1518
+Epoch 86/140 — Train Loss: 0.0065 | Val Loss: 0.1337
+Epoch 87/140 — Train Loss: 0.0077 | Val Loss: 0.1561
+Epoch 88/140 — Train Loss: 0.0081 | Val Loss: 0.1577
+Epoch 89/140 — Train Loss: 0.0077 | Val Loss: 0.1448
+Epoch 90/140 — Train Loss: 0.0076 | Val Loss: 0.1419
+Epoch 91/140 — Train Loss: 0.0074 | Val Loss: 0.1436
+Epoch 92/140 — Train Loss: 0.0067 | Val Loss: 0.1510
+Epoch 93/140 — Train Loss: 0.0065 | Val Loss: 0.1504
+Epoch 94/140 — Train Loss: 0.0087 | Val Loss: 0.1462
+Epoch 95/140 — Train Loss: 0.0065 | Val Loss: 0.1420
+Epoch 96/140 — Train Loss: 0.0051 | Val Loss: 0.1417
+Epoch 97/140 — Train Loss: 0.0043 | Val Loss: 0.1380
+Epoch 98/140 — Train Loss: 0.0041 | Val Loss: 0.1328
+Epoch 99/140 — Train Loss: 0.0046 | Val Loss: 0.1488
+Epoch 100/140 — Train Loss: 0.0056 | Val Loss: 0.1419
+Epoch 101/140 — Train Loss: 0.0065 | Val Loss: 0.1381
+Epoch 102/140 — Train Loss: 0.0049 | Val Loss: 0.1454
+Epoch 103/140 — Train Loss: 0.0043 | Val Loss: 0.1452
+Epoch 104/140 — Train Loss: 0.0033 | Val Loss: 0.1395
+Epoch 105/140 — Train Loss: 0.0030 | Val Loss: 0.1348
+Epoch 106/140 — Train Loss: 0.0028 | Val Loss: 0.1330
+Epoch 107/140 — Train Loss: 0.0027 | Val Loss: 0.1300
+Epoch 108/140 — Train Loss: 0.0025 | Val Loss: 0.1408
+Epoch 109/140 — Train Loss: 0.0025 | Val Loss: 0.1379
+Epoch 110/140 — Train Loss: 0.0032 | Val Loss: 0.1319
+Epoch 111/140 — Train Loss: 0.0031 | Val Loss: 0.1421
+Epoch 112/140 — Train Loss: 0.0028 | Val Loss: 0.1428
+Epoch 113/140 — Train Loss: 0.0025 | Val Loss: 0.1352
+Epoch 114/140 — Train Loss: 0.0019 | Val Loss: 0.1331
+Epoch 115/140 — Train Loss: 0.0013 | Val Loss: 0.1321
+Epoch 116/140 — Train Loss: 0.0012 | Val Loss: 0.1356
+Epoch 117/140 — Train Loss: 0.0009 | Val Loss: 0.1335
+Epoch 118/140 — Train Loss: 0.0010 | Val Loss: 0.1327
+Epoch 119/140 — Train Loss: 0.0010 | Val Loss: 0.1306
+Epoch 120/140 — Train Loss: 0.0008 | Val Loss: 0.1308
+Epoch 121/140 — Train Loss: 0.0007 | Val Loss: 0.1462
+Epoch 122/140 — Train Loss: 0.0006 | Val Loss: 0.1375
+Epoch 123/140 — Train Loss: 0.0005 | Val Loss: 0.1315
+Epoch 124/140 — Train Loss: 0.0003 | Val Loss: 0.1386
+Epoch 125/140 — Train Loss: 0.0002 | Val Loss: 0.1337
+Epoch 126/140 — Train Loss: 0.0001 | Val Loss: 0.1284
+Epoch 127/140 — Train Loss: 0.0001 | Val Loss: 0.1374
+Epoch 128/140 — Train Loss: 0.0000 | Val Loss: 0.1347
+Epoch 129/140 — Train Loss: 0.0000 | Val Loss: 0.1323
+Epoch 130/140 — Train Loss: 0.0000 | Val Loss: 0.1416
+Epoch 131/140 — Train Loss: 0.0000 | Val Loss: 0.1302
+Epoch 132/140 — Train Loss: 0.0000 | Val Loss: 0.1409
+Epoch 133/140 — Train Loss: 0.0000 | Val Loss: 0.1388
+Epoch 134/140 — Train Loss: 0.0000 | Val Loss: 0.1329
+Epoch 135/140 — Train Loss: 0.0000 | Val Loss: 0.1476
+Epoch 136/140 — Train Loss: 0.0000 | Val Loss: 0.1427
+Epoch 137/140 — Train Loss: 0.0000 | Val Loss: 0.1369
+Epoch 138/140 — Train Loss: 0.0000 | Val Loss: 0.1376
+Epoch 139/140 — Train Loss: 0.0000 | Val Loss: 0.1318
+Epoch 140/140 — Train Loss: 0.0000 | Val Loss: 0.1383
+Training complete. Final model saved.

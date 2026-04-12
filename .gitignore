@@ -1,0 +1,16 @@
+# Large binary files
+*.rar
+*.tar
+*.tar.xz
+*.png
+*.pth
+*.zip
+*.7z
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
