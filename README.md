@@ -24,35 +24,19 @@ The core innovation is the fusion of two complementary feature streams:
 These are combined through element-wise addition and passed to a regression head that outputs continuous celestial coordinates.
 
 
+
+
 ---
 
 ## System Pipeline
 
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     FIGURE PLACEHOLDER — Full system pipeline diagram
-     Replace the block below with your figure once available.
+<!-- Full pipeline diagram: horizontal flow with six stages (Stellarium Input → Preprocessing → Star Detection → Polygon Construction → ViT + Angle Embedding → RA/DEC Output) -->
+<!-- Place your figure at `docs/figures/system_pipeline.png` and uncomment below -->
+<!-- ![System Pipeline](figures/method_overview.png) -->
 
-     Suggested image: a horizontal flow diagram showing the six stages:
-       Stellarium Input → Preprocessing → Star Detection →
-       Polygon Construction → ViT + Angle Embedding → RA / DEC Output
-     Recommended filename: docs/figures/system_pipeline.png
-═══════════════════════════════════════════════════════════════════════════ -->
+> **Figure placeholder:** System pipeline diagram. Shows the end‑to‑end data flow from raw starfield to RA/DEC output.
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        [ SYSTEM PIPELINE FIGURE ]                       │
-│                                                                         │
-│  Place your full pipeline diagram here:                                 │
-│  docs/figures/system_pipeline.png                                       │
-│                                                                         │
-│  Recommended: horizontal flow with six labeled stages and arrows        │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-<!-- Uncomment and update path when figure is ready:
-![System Pipeline](figures/system_pipeline.png)
--->
-
+---
 
 
 
@@ -101,31 +85,14 @@ Synthetic starfield images were generated using [Stellarium](https://stellarium.
 
 > **Note:** The dataset is not tied to any geographic location on Earth. Stellarium is used in a celestial-coordinate mode where the camera orientation (RA, DEC) is varied directly, independent of terrestrial position.
 
+
 ### Preprocessing Pipeline
 
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     FIGURE PLACEHOLDER — Preprocessing pipeline comparison
-     Replace the block below with your figure once available.
+<!-- Before/after cropping comparison: original uncropped starfield (left) vs 224×224 centroid‑cropped region (right) with detected bright stars overlaid -->
+<!-- Place your figure at `docs/figures/preprocessing_comparison.png` and uncomment below -->
+<!-- ![Preprocessing Comparison](figures/comparison.png) -->
 
-     Suggested image: side-by-side showing original uncropped starfield
-     on the left and the 224×224 centroid-cropped result on the right,
-     with detected bright stars overlaid as red dots.
-     Recommended filename: docs/figures/preprocessing_comparison.png
-═══════════════════════════════════════════════════════════════════════════ -->
-
-┌─────────────────────────────────────────────────────────────────────────┐
-│                  [ PREPROCESSING COMPARISON FIGURE ]                    │
-│                                                                         │
-│  Place your before/after cropping comparison here:                      │
-│  docs/figures/preprocessing_comparison.png                              │
-│                                                                         │
-│  Left:  original uncropped starfield with detected bright stars         │
-│  Right: 224×224 centroid-cropped region with stars overlaid             │
-└─────────────────────────────────────────────────────────────────────────┘
-
-
-<!-- Uncomment and update path when figure is ready:
-![Preprocessing Comparison](docs/figures/comparison.png)
+> **Figure placeholder:** Preprocessing comparison. Left: original starfield with detected bright stars; Right: 224×224 cropped region centred on the intensity centroid.
 -->
 
 Each captured image passes through six stages:
@@ -161,23 +128,11 @@ The internal angles of each polygon are computed and assembled into a rotation- 
 
 ### Polygon Visualisation
 
+<!-- Example of blue polygons connecting the brightest stars, with internal angles labelled and the computed centroid shown as a red dot -->
+<!-- Place your figure at `docs/figures/polygon_overlay.png` and uncomment below -->
+<!-- ![Polygon Overlay](figures/polygons.png) -->
 
-
-
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    [ POLYGON OVERLAY FIGURE ]                           │
-│                                                                         │
-│  Place your polygon visualisation here:                                 │
-│  docs/figures/polygon_overlay.png                                       │
-│                                                                         │
-│  Blue polygons connecting the brightest stars                           │
-│  Internal angles labelled · Red dot = computed centroid                 │
-└─────────────────────────────────────────────────────────────────────────┘
-
-
-<!-- Uncomment and update path when figure is ready:
-![Polygon Overlay](figures/polygons.png)
--->
+> **Figure placeholder:** Polygon overlay. Blue lines connect the brightest stars; red dot indicates the computed centroid; internal angles are labelled.
 
 ---
 
