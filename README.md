@@ -30,9 +30,9 @@ These are combined through element-wise addition and passed to a regression head
 
 ## System Pipeline
 
-<!-- Full pipeline diagram: horizontal flow with six stages (Stellarium Input → Preprocessing → Star Detection → Polygon Construction → ViT + Angle Embedding → RA/DEC Output) -->
+! Full pipeline diagram: horizontal flow with six stages (Stellarium Input → Preprocessing → Star Detection → Polygon Construction → ViT + Angle Embedding → RA/DEC Output) -->
 <!-- Place your figure at `docs/figures/system_pipeline.png` and uncomment below -->
-<!-- ![System Pipeline](figures/method_overview.png) -->
+![System Pipeline](figures/method_overview.png) -->
 
 > **Figure placeholder:** System pipeline diagram. Shows the end‑to‑end data flow from raw starfield to RA/DEC output.
 
@@ -90,7 +90,7 @@ Synthetic starfield images were generated using [Stellarium](https://stellarium.
 
 <!-- Before/after cropping comparison: original uncropped starfield (left) vs 224×224 centroid‑cropped region (right) with detected bright stars overlaid -->
 <!-- Place your figure at `docs/figures/preprocessing_comparison.png` and uncomment below -->
-<!-- ![Preprocessing Comparison](figures/comparison.png) -->
+![Preprocessing Comparison](figures/comparison.png) -->
 
 > **Figure placeholder:** Preprocessing comparison. Left: original starfield with detected bright stars; Right: 224×224 cropped region centred on the intensity centroid.
 -->
@@ -130,7 +130,7 @@ The internal angles of each polygon are computed and assembled into a rotation- 
 
 <!-- Example of blue polygons connecting the brightest stars, with internal angles labelled and the computed centroid shown as a red dot -->
 <!-- Place your figure at `docs/figures/polygon_overlay.png` and uncomment below -->
-<!-- ![Polygon Overlay](figures/polygons.png) -->
+![Polygon Overlay](figures/polygons.png) -->
 
 > **Figure placeholder:** Polygon overlay. Blue lines connect the brightest stars; red dot indicates the computed centroid; internal angles are labelled.
 
